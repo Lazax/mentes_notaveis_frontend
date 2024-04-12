@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+fieldset  {
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+fieldset:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+fieldset legend {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.field:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.field .label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+
+  display: block;
+  margin-bottom: 5px;
+}
+
+.field input {
+  min-height: 30px;
+  min-width: 300px;
+  padding: 0px 5px;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 80px;
+  background-color: #28a745;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table thead th,
+table tbody td {
+  padding: 5px 10px;
+  border: 1px solid #000000;
+}

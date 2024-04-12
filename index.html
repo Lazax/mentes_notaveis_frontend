@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mentes Notaveis - Teste Tecnico</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>    
+  </head>
+
+  <body>
+    <div class="container">
+      <section>
+        <h1>Cadastrar Fogão</h1>
+
+        <form id="stove-form">
+          <fieldset>
+            <legend>Fogão</legend>
+
+            <div class="field">
+              <label class="label">Marca</label>
+  
+              <input id="brand" name="brand" required />
+            </div>
+  
+            <div class="field">
+              <label class="label">Cor</label>
+              
+              <input id="color" name="color" required />
+            </div>
+  
+            <div class="field">
+              <label class="label">Altura</label>
+  
+              <input id="height" name="height" required />
+            </div>
+  
+            <div class="field">
+              <label class="label">Largura</label>
+              
+              <input id="width" name="width" required />
+            </div>
+  
+            <div class="field">
+              <label class="label">Comprimento</label>
+  
+              <input id="length" name="length" required />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Forno</legend>
+
+            <div class="field">
+              <label class="label">Altura</label>
+              
+              <input id="oven-glass-door-height" name="oven-glass-door-height" required />
+            </div>
+  
+            <div class="field">
+              <label class="label">Largura</label>
+  
+              <input id="oven-glass-door-width" name="oven-glass-door-width" required />
+            </div>
+          </fieldset>
+
+          <button type="submit" class="button">Salvar</button>
+        </form>
+      </section>
+
+      <section id="stove-list"></section>
+    </div>
+
+    <script src='./model/Lighter.js'></script>
+    <script src='./model/Burner.js'></script>
+    <script src='./model/Oven.js'></script>
+    <script src='./model/Stove.js'></script>
+    <script src='./view/StoveView.js'></script>
+    <script src='./controller/StoveController.js'></script>
+    <script src='main.js'></script>
+  </body>
+</html>
